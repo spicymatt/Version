@@ -26,9 +26,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		29EA596B1B5A448E002D767E /* UniversalFramework_Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = UniversalFramework_Base.xcconfig; sourceTree = "<group>"; };
-		29EA596C1B5A448E002D767E /* UniversalFramework_Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = UniversalFramework_Framework.xcconfig; sourceTree = "<group>"; };
-		29EA596D1B5A448E002D767E /* UniversalFramework_Test.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = UniversalFramework_Test.xcconfig; sourceTree = "<group>"; };
 		712D32A119BD06570093BAD7 /* Version.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Version.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		712D32AC19BD06570093BAD7 /* VersionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VersionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		712D32AF19BD06570093BAD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,9 +60,6 @@
 		29EA59681B5A448E002D767E /* xcconfigs */ = {
 			isa = PBXGroup;
 			children = (
-				29EA596B1B5A448E002D767E /* UniversalFramework_Base.xcconfig */,
-				29EA596C1B5A448E002D767E /* UniversalFramework_Framework.xcconfig */,
-				29EA596D1B5A448E002D767E /* UniversalFramework_Test.xcconfig */,
 			);
 			path = xcconfigs;
 			sourceTree = "<group>";
@@ -367,7 +361,6 @@
 		};
 		712D32B519BD06570093BAD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29EA596C1B5A448E002D767E /* UniversalFramework_Framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -390,7 +383,6 @@
 		};
 		712D32B619BD06570093BAD7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29EA596C1B5A448E002D767E /* UniversalFramework_Framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -412,7 +404,6 @@
 		};
 		712D32B819BD06570093BAD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29EA596D1B5A448E002D767E /* UniversalFramework_Test.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
@@ -428,7 +419,6 @@
 		};
 		712D32B919BD06570093BAD7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29EA596D1B5A448E002D767E /* UniversalFramework_Test.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = VersionTests/Info.plist;
